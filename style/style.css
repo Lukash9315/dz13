@@ -1,0 +1,132 @@
+
+*{
+    margin: 0px;
+}
+body{
+    max-width: 1440px;
+    margin: 100px auto;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.engnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.eng{
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-right: 50px;
+}
+.navigation{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+h2{
+    margin: 0px 0px 40px 0px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+}
+ul{
+    list-style: none;
+}
+.chapter{
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.paragraph-name{
+    display: flex;
+}
+.paragraph{
+    margin: 70px 0px;
+}
+.introduction-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+.introduction-text > span{
+    text-decoration: underline;
+}
+.core-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+.core-text > span{
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;  
+}
+
+
+.handling-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.react-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+.react-text > p:not(:last-child){
+    margin-bottom: 40px;
+}
+.underline-text{
+    text-decoration: underline;
+}
+.bg{
+    background: #DADADA;
+}
+.handling-text > span{
+        font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
